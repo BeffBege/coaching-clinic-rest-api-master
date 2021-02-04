@@ -1,0 +1,22 @@
+CRITICAL - 2020-12-30 03:53:19 --> Unable to connect to the database.
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-30 03:53:19 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Admin), true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Debug/Exceptions.php(308): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

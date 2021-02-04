@@ -1,0 +1,192 @@
+CRITICAL - 2020-12-28 00:43:25 --> filter_var() expects parameter 2 to be integer, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var() ex...', '/Applications/X...', 439, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/HTTP/Request.php(439): filter_var('kiki kiko', 'gender', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/HTTP/IncomingRequest.php(341): CodeIgniter\HTTP\Request->fetchGlobal('request', 'fullname', 'gender', NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(84): CodeIgniter\HTTP\IncomingRequest->getVar('fullname', 'gender')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 00:48:49 --> filter_var() expects parameter 2 to be integer, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var() ex...', '/Applications/X...', 439, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/HTTP/Request.php(439): filter_var('kiki kiko', 'gender', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/HTTP/IncomingRequest.php(341): CodeIgniter\HTTP\Request->fetchGlobal('request', 'fullname', 'gender', NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(84): CodeIgniter\HTTP\IncomingRequest->getVar('fullname', 'gender')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 00:49:21 --> filter_var() expects parameter 2 to be integer, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var() ex...', '/Applications/X...', 439, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/HTTP/Request.php(439): filter_var('kiki kiko', 'gender', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/HTTP/IncomingRequest.php(341): CodeIgniter\HTTP\Request->fetchGlobal('request', 'fullname', 'gender', NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(83): CodeIgniter\HTTP\IncomingRequest->getVar('fullname', 'gender')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:07:54 --> syntax error, unexpected '=', expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/MigrationRunner.php(223): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Database/Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/coach/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2020-12-28 02:14:23 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/tambahuse...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/tambahuse...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2020-12-28 02:14:27 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/tambahuse...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/tambahuse...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2020-12-28 02:14:56 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:14:57 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:14:58 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:15:27 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:15:28 --> syntax error, unexpected ''tanggal_lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:16:43 --> Undefined index: user_pict
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/pages/listuser.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 35, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/View/View.php(246): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Common.php(1119): CodeIgniter\View\View->render('pages/listuser', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(27): view('pages/listuser', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->listuser()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:17:34 --> Undefined index: created_at
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/pages/listuser.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 45, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/View/View.php(246): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Common.php(1119): CodeIgniter\View\View->render('pages/listuser', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(27): view('pages/listuser', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->listuser()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2020-12-28 02:22:26 --> Table 'ci4_crud_restapi_flutter.users' doesn't exist
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(25): CodeIgniter\Model->findAll()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->listuser()
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2020-12-28 02:39:36 --> syntax error, unexpected ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/listuser')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/listuser')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2020-12-28 02:41:16 --> A non-numeric value encountered
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/X...', 87, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2020-12-28 02:41:48 --> A non-numeric value encountered
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/X...', 87, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2020-12-28 02:45:38 --> A non-numeric value encountered
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/X...', 87, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2020-12-28 02:56:54 --> str_replace() expects at least 3 parameters, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'str_replace() e...', '/Applications/X...', 88, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Admin.php(88): str_replace('-', '2020-01-11')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Admin->prosestambahuser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#7 {main}

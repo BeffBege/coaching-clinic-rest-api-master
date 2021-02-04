@@ -1,0 +1,88 @@
+CRITICAL - 2021-02-03 04:23:58 --> Undefined index: peran
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 04:28:27 --> Undefined index: peran
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 04:29:05 --> Undefined index: gambar_profil
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 04:29:24 --> Undefined index: gambar_profil
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 04:29:37 --> Undefined index: gambar_profil
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 04:29:59 --> Undefined index: peran
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 04:30:44 --> Undefined index: peran
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-03 05:54:03 --> Undefined index: peran
+#0 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Views\pages\listmateri.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 C:\xampp\htdocs\coaching-clinic-rest-api-master\app\Controllers\Admin.php(57): view('pages/listmater...', Array)
+#4 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(918): App\Controllers\Admin->listmateri()
+#5 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coaching-clinic-rest-api-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coaching-clinic-rest-api-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

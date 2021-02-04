@@ -1,0 +1,66 @@
+CRITICAL - 2021-01-07 13:37:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Common.php(1119): CodeIgniter\View\View->render('pages/tambahmat...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Coach.php(89): view('pages/tambahmat...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Coach->tambahmatericoach()
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coach))
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-01-07 14:47:24 --> Unknown column 'nama_namter' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Validation/Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Validation/Validation.php(325): CodeIgniter\Validation\Rules->is_unique('How to play dru...', 'nama_namter', Array, NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('nama_materi', 'nama_materi', 'How to play dru...', Array, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Coach.php(98): CodeIgniter\Controller->validate(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Coach->prosestambahmatericoach()
+#10 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coach))
+#11 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#14 {main}
+CRITICAL - 2021-01-07 14:48:27 --> Undefined property: App\Controllers\Coach::$itemsModel
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Coach.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 130, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Coach->prosestambahmatericoach()
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coach))
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-01-07 15:12:08 --> Undefined index: gambar_profil
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/pages/listmatericoach.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 35, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/View/View.php(246): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Coach.php(57): view('pages/listmater...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Coach->listmatericoach()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coach))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-01-07 15:12:53 --> Undefined index: Jenis_coaching
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/pages/listmatericoach.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 41, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/View/View.php(246): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Coach.php(57): view('pages/listmater...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Coach->listmatericoach()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coach))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-01-07 15:13:04 --> Undefined index: nama_pembuat
+#0 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Views/pages/listmatericoach.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 43, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/coach/system/View/View.php(246): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Common.php(1119): CodeIgniter\View\View->render('pages/listmater...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/coach/app/Controllers/Coach.php(57): view('pages/listmater...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(918): App\Controllers\Coach->listmatericoach()
+#5 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coach))
+#6 /Applications/XAMPP/xamppfiles/htdocs/coach/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/coach/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/coach/system/Commands/Server/rewrite.php(34): require_once('/Applications/X...')
+#9 {main}
